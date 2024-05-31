@@ -29,12 +29,21 @@ This project aims to create a cryptocurrency price alert application that enable
    ```
    npm install
    ```
-4. Set up environment variables by creating a `.env` file and filling in the required details (refer to the provided `.env.example` file).
-5. Start the application:
+4. Set up environment variables by creating a `.env` file and filling in the required details.
+   ```
+   MONGO_URL=your_mongodb_connection_string
+   REDIS_PASSWORD=your_redis_password
+   REDIS_URL=your_redis_host
+   REDIS_PORT=your_redis_port
+   NODEMAILER_PASS=your_smtp_password
+   COINAPI_URL=your_coinapi_base_url
+   COINAPI_KEY=your_coinapi_api_key
+   ```
+6. Start the application:
    ```
    npm start
    ```
-6. Access the application through the specified port (default: 5000).
+7. Access the application through the specified port (default: 5000).
 
 ## **Usage:**
 1. Visit the homepage ("/") to confirm that the server is running.
